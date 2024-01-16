@@ -14,5 +14,12 @@ return {
     config = function()
       require "user.plugins.rose-pine"
     end,
-  },
+    },
+    {"folke/todo-comments.nvim",
+      event = "BufRead",
+      dependencies = { "nvim-lua/plenary.nvim" },
+      opts = {
+      }
+    },
 }
+

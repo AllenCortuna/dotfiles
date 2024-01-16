@@ -14,7 +14,7 @@ return {
 
   local button = require("astronvim.utils").alpha_button
   dashboard.section.buttons.val = {
-    button("LDR _ n", "  Dir Session  "),
+    button("LDR n  ", "  Dir Session  "),
     button("LDR f f", "  Find File  "),
     button("LDR f o", "󰈙  Recents  "),
     button("LDR f w", "󰈭  Find Word  "),
